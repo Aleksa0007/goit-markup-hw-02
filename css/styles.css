@@ -99,12 +99,23 @@ ul, ol {
 }
 
 .title-page {
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
+
 .text-align {
-
+    text-align: center;
 }
 
+.footer-bg {
+    background: #2e2f42;
+    width: 1440px;
+    height: 312px;
+}
 .footer-text {
     font-weight: 400;
     font-size: 16px;
