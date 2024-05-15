@@ -1,8 +1,7 @@
 .body {
-    font-family:"Roboto",
-        sans-serif;
+    font-family:"Roboto", sans-serif;
     color: #434455;
-    background-color: #FFF;
+    background-color: #FFFFFF;
 }
 a {
     text-decoration: none;
@@ -12,6 +11,7 @@ ul, ol {
 }
 
 .logo {
+        font-family: "Raleway", sans-serif
         font-weight: 700;
         font-size: 18px;
         line-height: 117%;
@@ -72,15 +72,25 @@ ul, ol {
        
 }
 .button {
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
+    color: #ffffff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    cursor: pointer;
 }
 .button:hover {
     background: #404bbf;
+}
+
+.section-our-team {
+    background-color: #F4F4FD;
 }
 
 .title-section {
@@ -89,6 +99,14 @@ ul, ol {
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
+}
+
+.list {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px 0px;
+        width: 264px;
+        height: 380px;
 }
 .text {
         font-weight: 400;
@@ -99,6 +117,7 @@ ul, ol {
 }
 
 .title-page {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -121,5 +140,8 @@ ul, ol {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+span {
     color: #f4f4fd;
 }
